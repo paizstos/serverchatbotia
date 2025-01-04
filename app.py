@@ -14,7 +14,7 @@ def load_model_from_drive(model_path):
     return tokenizer, model
 
 # Charger le modèle
-model_path = 'https://drive.google.com/drive/folders/1gLB1_MwDuGWjJY63dF6-uuILFK2Rnku2?usp=sharing'
+model_path = 'https://drive.google.com/drive/folders/1gLB1_MwDuGWjJY63dF6-uuILFK2Rnku2'
 tokenizer, model = load_model_from_drive(model_path)
 
 app = Flask(__name__)
